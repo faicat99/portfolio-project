@@ -75,6 +75,10 @@ p {
     padding: 0;
 }
 
+.container p {
+    padding: 0;
+}
+
 .img {
     margin: 30px;
     border-radius: 6px;

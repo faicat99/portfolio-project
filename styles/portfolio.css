@@ -15,9 +15,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: var(--heading-font-family);
-    font-weight: bold;
-
-    
+    font-weight: bold;   
 }
 
 h1 {
@@ -102,6 +100,38 @@ p {
 
 .img {
     border-radius: 8px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.list {
+    padding-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--branding-color);
+
 }
 
 @media (max-width: 900px) {

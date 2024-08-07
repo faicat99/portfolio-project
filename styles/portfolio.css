@@ -79,14 +79,13 @@ p {
 }
 
 .content p {
-    font-size: 12px;
+    font-size: 18px;
     padding: 10px;
     margin-right: 20px;
 }
 
 .content a {
     font-size: 14px;
-    color: #0d6efd; 
 }
 
 .img {
@@ -104,9 +103,6 @@ p {
     line-height: 27px;
 }
 
-.btn-branding:hover {
-    color: white;
-}
 
 .btn-branding-outline {
     color: var(--branding-color);
@@ -120,9 +116,13 @@ p {
 
 .btn-branding-outline:hover {
     background: var(--branding-color);
+    border-radius: 4px;
     color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
 }
-
 .project-description {
     padding: 60px 20px; 
 }
@@ -231,7 +231,6 @@ footer .social-links a:hover {
 
 .content-container {
     text-align: center;
-    padding: 0;
 }
 
 footer .contact-box {

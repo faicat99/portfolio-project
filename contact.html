@@ -46,24 +46,58 @@
           </div>
         </div>
         </nav>
-    <div class="content-container container text-center">
-        <div class="content">
-            <h1 class="mb-5">Let's get in touch!</h1>
-            <h3>Email</h3>
-            <p>
+        <div class="content-container container">
+          <div class="content">
+        <h1 class="mb-5">Let's get in touch!</h1>
+        <div class="row">
+          <div class="col-md-8">
+            <form
+              action="https://formspree.io/f/mwkalajy"
+              method="POST"
+              class="border p-3 rounded mb-3"
+            >
+              <div class="mb-3">
+                <label class="form-label"> Your email: </label>
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  required
+                  autofocus
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label"> Your message: </label>
+                <textarea
+                  name="message"
+                  class="form-control"
+                  required
+                ></textarea>
+              </div>
+
+              <!-- your other form fields go here -->
+              <button type="submit" class="btn btn-branding">Send</button>
+              </form>
+            </div>
+            <div class="col-md-4">
+            <h3 class="mt-2">Email</h3>
+            <p class="mb-4 p-0">
                 <a href="mailto:faicatmck@gmail.com">faicatmck@gmail.com</a>
             </p>
             <h3>Twitter</h3>
-            <p>
+            <p class="mb-4 p-0">
                 <a href="https://www.twitter.com/fainche" target="_blank">
                 @fainche</a>
             </p>
             <h3>Instagram</h3>
-            <p>
+            <p class="mb-4 p-0">
                 <a href="https://www.instagram.com/fainche.codes" target="_blank">@fainche.codes</a>
             </p>
         </div>
-        <footer>
+        </div>
+        </div>
+        </div>
+        <footer class="container">
             <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
               <div>
               <h3>Work Enquiry</h3>
@@ -93,6 +127,7 @@
                 open-sourced</a>
             </p>
           </footer>
+        </body>
     </div>
 </body>
 </html>

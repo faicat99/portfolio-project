@@ -172,6 +172,11 @@ nav li.active a {
 
 }
 
+.row-work img {
+    display: flex;
+    object-fit: cover;
+}
+
 footer {
     margin: 60px 0;
 }
